@@ -27,14 +27,14 @@
             size="mini"
             icon="el-icon-cloudy"
             plain
-            @click="goTarget('https://gitee.com/y_project/RuoYi-Vue')"
+            @click="goTarget('https://github.com/gitcetop/ce-admin')"
             >访问Github</el-button
           >
           <el-button
             size="mini"
             icon="el-icon-s-home"
             plain
-            @click="goTarget('http://ruoyi.vip')"
+            @click="goTarget('https://github.com/gitcetop/ce-admin')"
             >访问主页</el-button
           >
         </p>
@@ -83,7 +83,7 @@
               <i class="el-icon-s-promotion"></i> 官网：<el-link
                 href="#"
                 target="_blank"
-                >http://www.xxxx.top</el-link
+                >https://github.com/gitcetop/ce-admin</el-link
               >
             </p>
           </div>

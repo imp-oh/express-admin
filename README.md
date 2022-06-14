@@ -1,13 +1,25 @@
 # ce-admin
 
-# :tada: 后台管理系统 express + vue2
+# 🎉后台管理系统 express + vue2
 
 先介绍一下为什么用express当后台,因为因为我很多年前，封装了一个express 框架，只是 从1.0 升级到2.0 
 哈哈，都是借口，后面有空 去做个koa的框架吧，展示够用，我还需要去研究electron,毕竟软件开发才香，啥都学，我很菜，啥都会一丢丢丢，我是一个程序小白。花了2个多星期拿RuoYi框架改了一下下。
 
+## 项目地址
+
+ https://github.com/gitcetop/ce-admin
+
 
 ## 事事不顺心，只能靠写代码来发泄一下
 我不会英语你能拿我乍地，我就摆烂。
+
+## Redis 
+
+你先需要安装一个redis
+
+路径为：ce-admin\utils\redis.js
+
+可行配置
 
 
 ## express
@@ -224,6 +236,8 @@ module.exports = routers
 ```
 
 ### 路由挂在
+
+注意路由递归方法可在优化
 
 ```js
 // ce-admin\routers.js 文件

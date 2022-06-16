@@ -235,7 +235,7 @@ let routers = [
 module.exports = routers
 ```
 
-### 路由挂在
+### 路由挂载
 
 注意路由递归方法可在优化
 
